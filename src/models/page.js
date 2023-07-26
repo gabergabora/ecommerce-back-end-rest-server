@@ -13,7 +13,7 @@ const pageSchema = new mongoose.Schema({
     banners: [
         {
             img: { type: String },
-            navigateTo: { type: String }
+            navigateTo: { type: String }            
         }
     ],
     products: [
